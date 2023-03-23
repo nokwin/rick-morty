@@ -43,6 +43,7 @@ export const getStaticProps: GetStaticProps<CharacterSsgProps> = async (
     props: {
       data,
     },
+    revalidate: 10,
   };
 };
 
